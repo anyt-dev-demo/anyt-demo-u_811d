@@ -273,6 +273,68 @@ export default function Home() {
           </div>
         </div>
       </Slide>
+
+      {/* Slide 10: AWS Loft */}
+      <Slide title="AWS Loft" subtitle="Innovation Spaces Around the World">
+        <div className="flex flex-col gap-6">
+          <div className="rounded-lg bg-gradient-to-r from-orange-500 to-amber-500 p-6 text-white">
+            <h3 className="mb-2 text-2xl font-bold">What is AWS Loft?</h3>
+            <p className="text-lg">
+              A global network of innovation spaces where startups, enterprises, and developers collaborate, learn, and build on AWS
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-4">
+            <FeatureCard
+              color="blue"
+              title="Locations"
+              description="Global presence in major tech hubs across multiple continents"
+            />
+            <FeatureCard
+              color="green"
+              title="Founded"
+              description="Launched by AWS to foster entrepreneurship and innovation"
+            />
+            <FeatureCard
+              color="purple"
+              title="Community"
+              description="Home to thousands of startups and AWS customers"
+            />
+            <FeatureCard
+              color="orange"
+              title="Resources"
+              description="Access to mentorship, funding, and AWS services"
+            />
+          </div>
+
+          <div className="grid grid-cols-3 gap-4 text-center">
+            <div className="rounded-lg border border-zinc-200 p-4 dark:border-zinc-800">
+              <p className="mb-2 text-3xl font-bold text-blue-600 dark:text-blue-400">
+                20+
+              </p>
+              <p className="font-semibold text-zinc-700 dark:text-zinc-300">
+                Global Locations
+              </p>
+            </div>
+            <div className="rounded-lg border border-zinc-200 p-4 dark:border-zinc-800">
+              <p className="mb-2 text-3xl font-bold text-green-600 dark:text-green-400">
+                10K+
+              </p>
+              <p className="font-semibold text-zinc-700 dark:text-zinc-300">
+                Startups Supported
+              </p>
+            </div>
+            <div className="rounded-lg border border-zinc-200 p-4 dark:border-zinc-800">
+              <p className="mb-2 text-3xl font-bold text-purple-600 dark:text-purple-400">
+                100B+
+              </p>
+              <p className="font-semibold text-zinc-700 dark:text-zinc-300">
+                AWS Credits Awarded
+              </p>
+            </div>
+          </div>
+        </div>
+      </Slide>
     </SlideContainer>
   );
 }
